@@ -13,3 +13,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* main */
+
+.section-opportunities {
+    background-color: var(--primary);
+}
+
+.question-textarea {
+    height: 150px;
+    resize: none;
+}
