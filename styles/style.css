@@ -1,9 +1,11 @@
 :root {
-    --bs-primary: #ffa500;
-    --bs-primary-rgb: 255, 165, 0;
+    --white: #ffffff;
+    --primary: #ffa500;
+    --light: #fff1bf;
+    --secondary: #FFE380;
 
-    --bs-secondary: #fff1bf;
-    --bs-secondary-rgb: 255, 241, 191;
+    --danger: #ef1f5d;
+    --success: #55a936;
 }
 
 * {
@@ -14,10 +16,11 @@
 
 /* main */
 
-.no-resize {
-    resize: none;
+.section-opportunities {
+    background-color: var(--primary);
 }
 
 .question-textarea {
     height: 150px;
+    resize: none;
 }
