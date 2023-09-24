@@ -3,3 +3,9 @@
 *.iws
 *.iml
 *.ipr
+
+### dist ###
+dist
+
+### node_modules ###
+node_modules
