@@ -1,0 +1,23 @@
+{
+  "name": "web-lab-html-css",
+  "version": "1.0.0",
+  "description": "Third university laboratory work on web development.\r CRM for culinary masters with recipe and menu management.\r Web page with HTML and CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashotvdovychenko/web-lab-html-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashotvdovychenko/web-lab-html-css/issues"
+  },
+  "homepage": "https://github.com/ashotvdovychenko/web-lab-html-css#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "wow.js": "^1.2.2"
+  }
+}

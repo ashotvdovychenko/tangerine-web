@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Main Page</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../node_modules/wow.js/css/libs/animate.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
@@ -16,18 +17,18 @@
 
     <main class="main">
         <section class="section-opportunities py-5 bg-primary">
-            <div class="container">
+            <div class="container wow bounceInLeft">
                 <h3 class="text-center mb-4">Section Opportunities</h3>
                 <div class="row justify-content-center gap-3">
-                    <article class="section-opportunities-card bg-white rounded p-3 h-100 col-lg-3 col-md-12 col-sm-12 col-11">
+                    <article class="section-opportunities-card bg-white rounded p-3 col-lg-3 col-md-12 col-sm-12 col-11">
                         <h5>Text Heading</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, at dicta enim, error expedita laudantium maiores quam quasi ratione temporibus unde vitae voluptates voluptatibus? Ea est facere libero magni tempore?</p>
                     </article>
-                    <article class="section-opportunities-card bg-white rounded p-3 h-100 col-lg-3 col-md-12 col-sm-12 col-11">
+                    <article class="section-opportunities-card bg-white rounded p-3 col-lg-3 col-md-12 col-sm-12 col-11">
                         <h5>Text Heading</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur impedit ipsam iure magnam nostrum recusandae tempora tempore voluptas. Aut blanditiis deleniti exercitationem inventore iusto, magni numquam odit omnis sunt voluptatem.</p>
                     </article>
-                    <article class="section-opportunities-card bg-white rounded p-3 h-100 col-lg-3 col-md-12 col-sm-12 col-11">
+                    <article class="section-opportunities-card bg-white rounded p-3 col-lg-3 col-md-12 col-sm-12 col-11">
                         <h5>Text Heading</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eius eveniet harum iure placeat, possimus qui reiciendis reprehenderit sint tempore? A consectetur eos ipsam laboriosam porro possimus sit tempore veniam?</p>
                     </article>
@@ -35,9 +36,9 @@
             </div>
         </section>
         <section class="section-advantages py-5">
-            <div class="container">
+            <div class="container wow bounceInRight">
                 <div class="row justify-content-center">
-                    <img class="col-lg-6 col-md-12 col-sm-12 col-11 bg-light d-none d-lg-block" src="" alt="our-advantages-image">
+                    <img class="col-lg-6 bg-light d-none d-lg-block" src="" alt="our-advantages-image">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-11">
                         <h3 class="text-center mb-4">Our Advantages</h3>
                         <p class="text-justify">
@@ -55,7 +56,7 @@
             </div>
         </section>
         <section class="section-form py-5 bg-primary">
-            <div class="container bg-white rounded p-5">
+            <div class="container bg-white rounded p-5 col-11 wow bounceInUp">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-11">
                         <h3 class="text-center mb-4">Have additional questions?</h3>
@@ -69,7 +70,7 @@
                             <button class="btn btn-outline-primary" type="submit">Get answer</button>
                         </form>
                     </div>
-                    <img class="col-lg-6 col-md-12 col-sm-12 col-11 bg-light d-none d-lg-block" src="" alt="questions-image">
+                    <img class="col-lg-6 bg-light d-none d-lg-block" src="" alt="questions-image">
                 </div>
             </div>
         </section>
@@ -78,5 +79,8 @@
     <footer class="footer">
 
     </footer>
+
+    <script src="../node_modules/wow.js/dist/wow.min.js"></script>
+    <script> new WOW().init(); </script>
 </body>
 </html>
