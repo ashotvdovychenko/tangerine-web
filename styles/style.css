@@ -1,15 +1,23 @@
 :root {
-    --white: #ffffff;
-    --primary: #ffa500;
-    --light: #fff1bf;
-    --secondary: #FFE380;
+    --bs-primary: #ffa500;
+    --bs-primary-rgb: 255, 165, 0;
 
-    --danger: #ef1f5d;
-    --success: #55a936;
+    --bs-secondary: #fff1bf;
+    --bs-secondary-rgb: 255, 241, 191;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* main */
+
+.no-resize {
+    resize: none;
+}
+
+.question-textarea {
+    height: 150px;
 }
