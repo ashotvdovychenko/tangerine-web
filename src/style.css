@@ -1,4 +1,4 @@
-:root {
+:root, [data-bs-theme=tg-theme] {
   --bs-primary: #ffa500;
   --bs-primary-rgb: 255, 165, 0;
 
@@ -10,6 +10,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* main */
