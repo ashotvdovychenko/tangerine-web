@@ -1,6 +1,6 @@
 # Web Lab HTML & CSS
 
-Welcome to the third university laboratory work on web development! In this project, we are building a CRM (Customer Relationship Management) system for culinary masters, focusing on recipe and menu management.
+Welcome to the university project for web development course! In this project, we are building web interface of the CRM (Customer Relationship Management) system for culinary masters, focusing on recipe and menu management.
 
 ## Getting Started with Vite
 
