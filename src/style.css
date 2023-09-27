@@ -31,12 +31,9 @@ body {
 /* header */
 
 .header {
-    --nav-height: 88px;
-    margin-top: var(--nav-height);
-    background-image: url("../assets/header-background.jpg");
-    background-size: cover;
-    background-position: center;
+    --nav-height: 65px;
     height: calc(100vh - var(--nav-height));
+    margin-top: var(--nav-height);
 }
 
 /* main */
