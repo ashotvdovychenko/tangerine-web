@@ -18,16 +18,9 @@ body {
 
 /* nav */
 
-.nav-burger-toggle {
-    background: transparent;
-    border: 0;
-}
-
 .nav-burger-line {
     width: 30px;
     height: 3px;
-    background-color: black;
-    margin: 3px 0;
 }
 
 /* header */
