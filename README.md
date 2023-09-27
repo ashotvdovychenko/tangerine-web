@@ -47,6 +47,6 @@ This will generate optimized production-ready files in the dist directory.
 Here's a brief overview of the project structure:
 
 - src/ - This directory contains your application source code, including HTML and CSS files.
-- public/ - Public assets like images, videos, fonts.
+- assets/ - Public assets like images, videos, fonts.
 - dist/ - The production build output directory, generated when running npm run build.
 - vite.config.js - Vite configuration file where you can customize project settings.
