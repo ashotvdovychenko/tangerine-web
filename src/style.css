@@ -16,6 +16,24 @@ body {
   overflow-x: hidden;
 }
 
+/* nav */
+
+.nav-burger-line {
+    width: 30px;
+    height: 3px;
+}
+
+/* header */
+
+.header {
+    --nav-height: 88px;
+    margin-top: var(--nav-height);
+    background-image: url("../assets/header-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - var(--nav-height));
+}
+
 /* main */
 
 .no-resize {
