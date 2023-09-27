@@ -4,6 +4,11 @@
 
   --bs-secondary: #fff1bf;
   --bs-secondary-rgb: 255, 241, 191;
+
+  --swiper-pagination-color: #ffa500;
+  --swiper-pagination-bullet-size: 12px;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-horizontal-gap: 8px;
 }
 
 * {
@@ -42,4 +47,8 @@ body {
 
 .question-textarea {
   height: 150px;
+}
+
+.swiper{
+    height: 500px;
 }
