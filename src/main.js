@@ -14,7 +14,7 @@ import puncake from '../assets/puncake.png';
 import 'bootstrap/js/dist/collapse.js';
 import '@fortawesome/fontawesome-free/js/all.min.js';
 import 'https://threejs.org/build/three.js';
-import DOTS from 'vanta/dist/vanta.dots.min.js';
+import DOTS from 'vanta/dist/vanta.dots.min';
 import Swiper from 'swiper/bundle';
 import WOW from "wow.js/dist/wow.js";
 
@@ -22,7 +22,6 @@ new WOW().init();
 
 DOTS({
     el: '.header',
-    THREE,
     mouseControls: true,
     touchControls: true,
     gyroControls: false,

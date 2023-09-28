@@ -6,8 +6,9 @@
   --bs-secondary-rgb: 255, 241, 191;
 
   --swiper-pagination-color: #ffa500;
+  --swiper-pagination-bullet-inactive-color: #fff1bf;
   --swiper-pagination-bullet-size: 12px;
-  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-inactive-opacity: 1;
   --swiper-pagination-bullet-horizontal-gap: 8px;
 }
 
@@ -50,20 +51,9 @@ body {
     height: 600px;
 }
 
-.swiper-pagination{
-    position: relative;
-    width: fit-content !important;
+.swiper-pagination-bullet{
+    box-shadow: 0 0 30px black;
 }
 
-.swiper-pagination::before{
-    content: '';
-    position: absolute;
-    display: block;
-    background-color: white;
-    width: 120%;
-    border-radius: 20px 20px 0 0;
-    height: 100%;
-    z-index: 0;
-}
 
 
