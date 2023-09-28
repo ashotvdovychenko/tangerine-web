@@ -3,6 +3,14 @@ import 'wow.js/css/libs/animate.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'swiper/css/bundle';
 
+import advantages from '../assets/advantages-image.png';
+import questions from '../assets/questions-image.png';
+import pizza from '../assets/pizza.png';
+import burger from '../assets/burger.png';
+import sushi from '../assets/sushi.png';
+import cookies from '../assets/cookies.png';
+import puncake from '../assets/puncake.png';
+
 import 'bootstrap/js/dist/collapse.js';
 import '@fortawesome/fontawesome-free/js/all.min.js';
 import 'https://threejs.org/build/three.js';
@@ -38,7 +46,15 @@ new Swiper('.dishes-slider', {
     },
 
     autoplay: {
-        delay: 4000,
+        delay: 3000,
         disableOnInteraction: false
     },
 });
+
+document.querySelector('#advantages-image').src = advantages
+document.querySelector('#questions-image').src = questions
+document.querySelector('#pizza').src = pizza
+document.querySelector('#burger').src = burger
+document.querySelector('#sushi').src = sushi
+document.querySelector('#cookies').src = cookies
+document.querySelector('#puncake').src = puncake

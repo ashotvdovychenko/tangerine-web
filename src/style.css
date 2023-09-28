@@ -47,5 +47,23 @@ body {
 }
 
 .swiper{
-    height: 500px;
+    height: 600px;
 }
+
+.swiper-pagination{
+    position: relative;
+    width: fit-content !important;
+}
+
+.swiper-pagination::before{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: white;
+    width: 120%;
+    border-radius: 20px 20px 0 0;
+    height: 100%;
+    z-index: 0;
+}
+
+
