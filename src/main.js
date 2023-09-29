@@ -3,10 +3,10 @@ import 'wow.js/css/libs/animate.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'swiper/css/bundle';
 
-import 'bootstrap/js/dist/collapse.js'
+import 'bootstrap/js/dist/collapse.js';
 import '@fortawesome/fontawesome-free/js/all.min.js';
-import 'https://threejs.org/build/three.js'
-import DOTS from 'vanta/dist/vanta.dots.min.js'
+import 'https://threejs.org/build/three.js';
+import DOTS from 'vanta/dist/vanta.dots.min.js';
 import Swiper from 'swiper/bundle';
 import WOW from "wow.js/dist/wow.js";
 
