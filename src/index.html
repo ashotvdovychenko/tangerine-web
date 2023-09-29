@@ -9,20 +9,33 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body data-bs-theme="tg-theme">
-<nav class="nav position-fixed w-100 bg-white py-3 top-0 z-2">
-  <ul class="container my-0 d-flex justify-content-between align-items-center list-unstyled">
-    <li class="d-flex align-items-center gap-3">
+<nav class="navbar fixed-top bg-white py-3">
+  <div class="container my-0">
+    <div class="navbar-brand d-flex align-items-center gap-2" href="#">
       <i class="fa-solid fa-hippo fa-2xl"></i>
       <h3 class="m-0">Tangerine</h3>
-    </li>
-    <li>
-      <button class="nav-burger-toggle d-flex flex-column bg-transparent border-0">
-        <span class="nav-burger-line bg-black my-1"></span>
-        <span class="nav-burger-line bg-black my-1"></span>
-        <span class="nav-burger-line bg-black my-1"></span>
-      </button>
-    </li>
-  </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Account</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
 <header class="header">
@@ -31,7 +44,6 @@
     <h6>Unleash Your Culinary Expertise<br>Where Recipes Come to Life</h6>
   </div>
 </header>
-
 
 <main class="main">
   <section class="section-opportunities py-5 bg-primary">
