@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="./style.css">
 </head>
-<body data-bs-theme="tg-theme">
+<body class="d-flex min-vh-100 flex-column" data-bs-theme="tg-theme">
 <nav class="navbar fixed-top bg-white py-3">
   <div class="container my-0">
     <div class="navbar-brand d-flex align-items-center gap-2">
@@ -22,13 +22,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Recipes</a>
+          <a class="nav-link" href="./receipt-list.html">Recipes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Menu</a>
+          <a class="nav-link" href="./menu-list.html">Menus</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Account</a>
@@ -45,7 +45,7 @@
   </div>
 </header>
 
-<main class="main">
+<main class="main flex-grow-1">
   <section class="section-opportunities py-5 bg-primary">
     <div class="container wow bounceInLeft">
       <h3 class="text-center mb-4">Our Opportunities</h3>
@@ -69,7 +69,7 @@
     <div class="container wow bounceInRight">
       <div class="row justify-content-center">
         <img class="col-lg-6 bg-light d-none d-lg-block p-0" id="advantages-image" alt="our-advantages-image" src="">
-        <div class="col-lg-6 col-md-12 col-sm-12 col-11">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-11 d-flex flex-column justify-content-evenly">
           <h3 class="text-center mb-4">Our Culinary Advantages</h3>
           <p>
             Discover the unique advantages of our culinary platform tailored for culinary masters and enthusiasts in recipe and menu management. We're committed to enhancing your culinary journey with these key features:
@@ -115,7 +115,7 @@
   <section class="section-form py-5 bg-primary">
     <div class="container bg-white rounded p-5 col-11 wow bounceInUp">
       <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-12 col-sm-12 col-11">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-11 d-flex flex-column justify-content-evenly">
           <h3 class="text-center mb-4">Have additional questions?</h3>
           <form>
             <label for="email">Email: </label>
