@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body class="d-flex min-vh-100 flex-column" data-bs-theme="tg-theme">
-<nav class="navbar fixed-top bg-white py-3">
+<nav class="navbar navbar-expand-lg fixed-top bg-white py-3">
   <div class="container my-0">
     <div class="navbar-brand d-flex align-items-center gap-2">
       <i class="fa-solid fa-hippo fa-2xl"></i>
@@ -19,8 +19,8 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
         </li>
@@ -36,8 +36,14 @@
         <li class="nav-item">
           <a class="nav-link" href="contacts/contacts.html">Contacts</a>
         </li>
+      </ul>
+      <hr class="d-block d-lg-none mt-0">
+      <ul class="navbar-nav flex-row mb-2 mb-lg-0 gap-2">
         <li class="nav-item">
-          <a class="nav-link" href="sign-in/sign-in.html">Sign in</a>
+          <a class="btn btn-primary" href="sign-in/sign-in.html">Sign in</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-primary" href="sign-up/sign-up.html">Sign up</a>
         </li>
       </ul>
     </div>
