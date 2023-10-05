@@ -9,7 +9,7 @@ export default {
                 menuList: path.resolve(__dirname, 'src/menu-list/menu-list.html'),
                 receiptList: path.resolve(__dirname, 'src/receipt-list/receipt-list.html'),
                 frequentlyAsked: path.resolve(__dirname, 'src/frequently-asked/frequently-asked.html'),
-                contacts: path.resolve(__dirname, 'src/contacts/contacts.html'),
+                events: path.resolve(__dirname, 'src/events/events.html'),
                 signIn: path.resolve(__dirname, 'src/sign-in/sign-in.html'),
                 signUp: path.resolve(__dirname, 'src/sign-up/sign-up.html')
             },
