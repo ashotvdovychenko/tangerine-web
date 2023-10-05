@@ -1,5 +1,10 @@
 {
   "rewrites": [
+    { "source": "", "destination": "/index.html" },
+    { "source": "/events", "destination": "/events/events.html" },
+    { "source": "/frequently-asked", "destination": "/frequently-asked/frequently-asked.html" },
+    { "source": "/menu-list", "destination": "/menu-list/menu-list.html" },
+    { "source": "/receipt-list", "destination": "/receipt-list/receipt-list.html" },
     { "source": "/sign-in", "destination": "/sign-in/sign-in.html" },
     { "source": "/sign-up", "destination": "/sign-up/sign-up.html" }
   ]
