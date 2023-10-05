@@ -21,6 +21,10 @@
     --bs-btn-border-color: var(--tg-primary);
     --bs-btn-hover-border-color: var(--tg-primary);
   }
+
+  .nav-pills {
+    --bs-nav-pills-link-active-bg: var(--tg-primary);
+  }
 }
 
 * {
