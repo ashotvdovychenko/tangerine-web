@@ -18,7 +18,8 @@
   .btn-primary {
     --bs-btn-bg: var(--tg-primary);
     --bs-btn-hover-bg: var(--tg-primary-darken);
-    --bs-border-width: 0;
+    --bs-btn-border-color: var(--tg-primary);
+    --bs-btn-hover-border-color: var(--tg-primary);
   }
 }
 

@@ -7,6 +7,7 @@
   <title>Menus | Tangerine</title>
 
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="menu-list.css">
 </head>
 <body class="d-flex min-vh-100 flex-column" data-bs-theme="tg-theme">
 <nav class="navbar navbar-expand-lg fixed-top bg-white py-3">
@@ -50,8 +51,381 @@
   </div>
 </nav>
 
-<main class="main flex-grow-1">
-
+<main class="main flex-grow-1 table-responsive tg-table">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Actions:</th>
+      <th>Menu Name:</th>
+      <th>Items quantity:</th>
+      <th>Average price:</th>
+      <th>Created At:</th>
+      <th>Created By:</th>
+    </tr>
+    </thead>
+    <tbody id="table-body">
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 1</td>
+      <td>10</td>
+      <td>$12.99</td>
+      <td>2023-10-05 09:15:00</td>
+      <td>Alice Johnson</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 2</td>
+      <td>8</td>
+      <td>$14.50</td>
+      <td>2023-10-04 14:30:00</td>
+      <td>Bob Smith</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 3</td>
+      <td>12</td>
+      <td>$19.99</td>
+      <td>2023-10-03 18:45:00</td>
+      <td>Carol Davis</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 4</td>
+      <td>7</td>
+      <td>$11.25</td>
+      <td>2023-10-02 10:20:00</td>
+      <td>David Brown</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 5</td>
+      <td>9</td>
+      <td>$16.99</td>
+      <td>2023-10-01 16:00:00</td>
+      <td>Eva Wilson</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 1</td>
+      <td>10</td>
+      <td>$12.99</td>
+      <td>2023-10-05 09:15:00</td>
+      <td>Alice Johnson</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 2</td>
+      <td>8</td>
+      <td>$14.50</td>
+      <td>2023-10-04 14:30:00</td>
+      <td>Bob Smith</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 3</td>
+      <td>12</td>
+      <td>$19.99</td>
+      <td>2023-10-03 18:45:00</td>
+      <td>Carol Davis</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 4</td>
+      <td>7</td>
+      <td>$11.25</td>
+      <td>2023-10-02 10:20:00</td>
+      <td>David Brown</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 5</td>
+      <td>9</td>
+      <td>$16.99</td>
+      <td>2023-10-01 16:00:00</td>
+      <td>Eva Wilson</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 1</td>
+      <td>10</td>
+      <td>$12.99</td>
+      <td>2023-10-05 09:15:00</td>
+      <td>Alice Johnson</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 2</td>
+      <td>8</td>
+      <td>$14.50</td>
+      <td>2023-10-04 14:30:00</td>
+      <td>Bob Smith</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 3</td>
+      <td>12</td>
+      <td>$19.99</td>
+      <td>2023-10-03 18:45:00</td>
+      <td>Carol Davis</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 4</td>
+      <td>7</td>
+      <td>$11.25</td>
+      <td>2023-10-02 10:20:00</td>
+      <td>David Brown</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 5</td>
+      <td>9</td>
+      <td>$16.99</td>
+      <td>2023-10-01 16:00:00</td>
+      <td>Eva Wilson</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 1</td>
+      <td>10</td>
+      <td>$12.99</td>
+      <td>2023-10-05 09:15:00</td>
+      <td>Alice Johnson</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 2</td>
+      <td>8</td>
+      <td>$14.50</td>
+      <td>2023-10-04 14:30:00</td>
+      <td>Bob Smith</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 3</td>
+      <td>12</td>
+      <td>$19.99</td>
+      <td>2023-10-03 18:45:00</td>
+      <td>Carol Davis</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 4</td>
+      <td>7</td>
+      <td>$11.25</td>
+      <td>2023-10-02 10:20:00</td>
+      <td>David Brown</td>
+    </tr>
+    <tr>
+      <td>
+        <button class="btn btn-info h-100">
+          <i class="fa-regular fa-eye text-white"></i>
+        </button>
+        <button class="btn btn-primary h-100">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </button>
+        <button class="btn btn-danger h-100">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </td>
+      <td>Menu 5</td>
+      <td>9</td>
+      <td>$16.99</td>
+      <td>2023-10-01 16:00:00</td>
+      <td>Eva Wilson</td>
+    </tr>
+    </tbody>
+  </table>
 </main>
 
 <footer class="footer py-3">

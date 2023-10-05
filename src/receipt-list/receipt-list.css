@@ -1,0 +1,11 @@
+.main {
+    --nav-height: 82px;
+    --footer-height: 166px;
+    height: calc(100vh - var(--nav-height) - var(--footer-height));
+    margin-top: var(--nav-height);
+}
+
+.tg-table th, .tg-table td {
+    white-space: nowrap;
+    min-width: 150px;
+}
