@@ -1,6 +1,7 @@
 :root, [data-bs-theme=tg-theme] {
   --tg-primary: #ffa500;
   --tg-primary-darken: #ee9b00;
+  --tg-primary-dark: #d58d00;
   --tg-secondary: #fff1bf;
 
   --bs-primary: var(--tg-primary);
@@ -18,8 +19,10 @@
   .btn-primary {
     --bs-btn-bg: var(--tg-primary);
     --bs-btn-hover-bg: var(--tg-primary-darken);
+    --bs-btn-active-bg: var(--tg-primary-dark);
     --bs-btn-border-color: var(--tg-primary);
     --bs-btn-hover-border-color: var(--tg-primary);
+    --bs-btn-active-border-color: var(--tg-primary-dark);
   }
 
   .nav-pills {
