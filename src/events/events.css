@@ -1,0 +1,4 @@
+.main {
+    --nav-height: 82px;
+    margin-top: var(--nav-height);
+}
