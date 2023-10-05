@@ -9,7 +9,7 @@ import pizza from '../assets/pizza.png';
 import burger from '../assets/burger.png';
 import sushi from '../assets/sushi.png';
 import cookies from '../assets/cookies.png';
-import puncake from '../assets/puncake.png';
+import pancake from '../assets/pancake.png';
 
 import 'bootstrap/js/dist/collapse.js';
 import '@fortawesome/fontawesome-free/js/all.min.js';
@@ -56,4 +56,4 @@ document.querySelector('#pizza').src = pizza
 document.querySelector('#burger').src = burger
 document.querySelector('#sushi').src = sushi
 document.querySelector('#cookies').src = cookies
-document.querySelector('#puncake').src = puncake
+document.querySelector('#pancake').src = pancake
